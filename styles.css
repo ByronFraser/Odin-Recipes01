@@ -1,0 +1,150 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+}
+.header{
+    margin: 0;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.logo{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 24px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.banner{
+    display: flex;
+    padding: 100px;
+    gap: 48px;
+    background-color: #1f2937;
+}
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.banner-image img{
+    width: 400px;
+}
+p1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+p2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.sign-up{
+    width: 132px;
+    height: 32px;
+    background-color: #3382f6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    border-color: #e5e7eb;
+    font-size: 18px;
+    border-width: 1px;
+}
+.information{
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 48px;
+}
+.info-pannel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.icon1 img, .icon2 img, .icon3 img, .icon4 img{
+    border-radius: 8px;
+    border: 3px solid #3382f6
+}
+.icon1, .icon2, .icon3, .icon4{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+p3{
+    display: flex;
+    text-align: center;
+    margin-top: 8px;
+}
+.quote{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+}
+p4{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+p5{
+    text-align: right;
+    font-weight: 900;
+}
+.action{
+    background-color: #3382f6;
+    margin: 100px;
+    padding: 36px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action div{
+    display: flex;
+    flex-direction: column;
+}
+.sign-up2{
+    background-color: #3382f6;
+    color: #F9FAF8;
+    border: solid;
+    border-color: #F9FAF8;
+    border-radius: 4px;
+    border-width: 2px;
+    width: 80px;
+    height: 24px;
+}
+p6{
+    color: #F9FAF8;
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 900;
+}
+p7{
+    color: #e5e7eb;
+}
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    height: 48px;
+    align-content: center;
+}
